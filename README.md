@@ -5,11 +5,7 @@
   <img src="https://img.shields.io/badge/Status-Active-22c55e?style=for-the-badge" alt="Status"/>
 </p>
 
-<h1 align="center">
-  <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
-  <br/>
-  LangGraph - From Zero to Hero
-</h1>
+<h1 align="center">🔗 LangGraph - From Zero to Hero</h1>
 
 <p align="center">
   <strong>A comprehensive, hands-on learning repository covering LangGraph from fundamentals to advanced agentic AI patterns.</strong>
@@ -18,38 +14,39 @@
 <p align="center">
   <img src="https://img.shields.io/github/stars/your-username/LangGraph?style=social" alt="Stars"/>
   <img src="https://img.shields.io/github/forks/your-username/LangGraph?style=social" alt="Forks"/>
+  <img src="https://img.shields.io/github/issues/your-username/LangGraph?style=social" alt="Issues"/>
 </p>
 
 ---
 
-## <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg> What is LangGraph?
+## 📖 What is LangGraph?
 
 LangGraph is an open-source framework by LangChain for building **reliable, stateful, and complex multi-actor AI agents**. It models agent workflows as graphs—nodes represent actions or LLM calls, and edges represent control flow (loops, branching, conditionals). This structure enables agents that can reason, act, and maintain memory over long-running interactions.
 
 ---
 
-## <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg> Course Structure
+## 📚 Course Structure
 
 | | Module | Topics |
 |---|--------|--------|
-| <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg> | **01 - Introduction to LangGraph** | What is LangGraph, LangChain vs LangGraph, Applications |
-| <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> | **02 - Agentic AI** | What is Agentic AI, Why Agents are Popular |
-| <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg> | **03 - LangGraph Components** | Graph, Node, Edges, State, Tools, Supervisor, Orchestrator, Memory, LLM Workflow |
-| <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg> | **04 - Types of Workflows** | Sequential, Parallel, Conditional, Iterative |
-| <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="2"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> | **05 - Reducers** | What is a Reducer, Why Reducers Matter |
-| <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg> | **06 - Persistence** | Threads, Thread IDs, Checkpointers (SQLite, Redis, PostgreSQL, Memory Saver) |
-| <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg> | **07 - Memory** | What is Memory, Types of Memory |
-| <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#f97316" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><line x1="20" y1="8" x2="20" y2="14"/><line x1="23" y1="11" x2="17" y2="11"/></svg> | **08 - Human-in-the-Loop** | HITL Concepts, Risk Analyzer Example |
-| <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#14b8a6" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/><path d="M9 10h6"/><path d="M9 14h4"/></svg> | **09 - Types of RAG** | Self-RAG (SRAG), Corrective-RAG (CRAG) |
-| <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> | **10 - Project** | End-to-End ChatBot with SQLite + FastAPI + Streamlit |
+| 0️⃣ | **01 - Introduction to LangGraph** | What is LangGraph, LangChain vs LangGraph, Applications |
+| 1️⃣ | **02 - Agentic AI** | What is Agentic AI, Why Agents are Popular |
+| 2️⃣ | **03 - LangGraph Components** | Graph, Node, Edges, State, Tools, Supervisor, Orchestrator, Memory, LLM Workflow |
+| 3️⃣ | **04 - Types of Workflows** | Sequential, Parallel, Conditional, Iterative |
+| 4️⃣ | **05 - Reducers** | What is a Reducer, Why Reducers Matter |
+| 5️⃣ | **06 - Persistence** | Threads, Thread IDs, Checkpointers (SQLite, Redis, PostgreSQL, Memory Saver) |
+| 6️⃣ | **07 - Memory** | What is Memory, Types of Memory |
+| 7️⃣ | **08 - Human-in-the-Loop** | HITL Concepts, Risk Analyzer Example |
+| 8️⃣ | **09 - Types of RAG** | Self-RAG (SRAG), Corrective-RAG (CRAG) |
+| 9️⃣ | **10 - Project** | End-to-End ChatBot with SQLite + FastAPI + Streamlit |
 
 ---
 
-## <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/><line x1="4" y1="4" x2="9" y2="9"/></svg> Workflow Types
+## ⚡ Workflow Types
 
 The repository covers four core workflow patterns in LangGraph:
 
-### <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg> Sequential Workflow
+### ➡️ Sequential Workflow
 Linear chain of nodes where output feeds into the next step.
 
 - BMI Calculator
@@ -57,14 +54,14 @@ Linear chain of nodes where output feeds into the next step.
 - Q&A Workflow
 - Prompt Chaining
 
-### <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2"><rect x="2" y="3" width="6" height="6" rx="1"/><rect x="16" y="3" width="6" height="6" rx="1"/><rect x="9" y="15" width="6" height="6" rx="1"/><line x1="5" y1="9" x2="5" y2="15"/><line x1="19" y1="9" x2="19" y2="15"/><line x1="5" y1="15" x2="12" y2="15"/><line x1="12" y1="15" x2="19" y2="15"/></svg> Parallel Workflow
+### 🔀 Parallel Workflow
 Multiple nodes execute simultaneously for independent tasks.
 
 - Resume Analyzer
 - LinkedIn Post Generator
 - Math Functions
 
-### <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v4"/><path d="M12 19v4"/><path d="M1 12h4"/><path d="M19 12h4"/><path d="M4.22 4.22l2.83 2.83"/><path d="M16.95 16.95l2.83 2.83"/><path d="M4.22 19.78l2.83-2.83"/><path d="M16.95 7.05l2.83-2.83"/></svg> Conditional Workflow
+### 🔀 Conditional Workflow
 Branching logic based on state or input conditions.
 
 - Intent Detection
@@ -72,7 +69,7 @@ Branching logic based on state or input conditions.
 - Organization Response
 - Quadratic Equation Solver
 
-### <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2"><polyline points="1 4 1 10 7 10"/><polyline points="23 20 23 14 17 14"/><path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"/></svg> Iterative Workflow
+### 🔁 Iterative Workflow
 Loops that repeat until a condition is met.
 
 - Code Review
@@ -80,30 +77,30 @@ Loops that repeat until a condition is met.
 
 ---
 
-## <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Key Concepts
+## 🧠 Key Concepts
 
 | Concept | Description |
 |---------|-------------|
-| <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v4"/><path d="M12 18v4"/></svg> **StateGraph** | Define your workflow as a directed graph with typed state |
-| <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg> **Nodes** | Individual computation steps (LLM calls, tool usage, transformations) |
-| <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg> **Edges** | Control flow between nodes (direct, conditional, or dynamic) |
-| <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/></svg> **State Persistence** | Resume conversations across sessions with checkpointers |
-| <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f97316" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/></svg> **Human-in-the-Loop** | Pause execution for human review and approval |
-| <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> **Reducers** | Control how state updates merge across parallel branches |
+| 🔷 **StateGraph** | Define your workflow as a directed graph with typed state |
+| 🟦 **Nodes** | Individual computation steps (LLM calls, tool usage, transformations) |
+| 🟩 **Edges** | Control flow between nodes (direct, conditional, or dynamic) |
+| 🟣 **State Persistence** | Resume conversations across sessions with checkpointers |
+| 🟠 **Human-in-the-Loop** | Pause execution for human review and approval |
+| 🔴 **Reducers** | Control how state updates merge across parallel branches |
 
 ---
 
-## <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> Project: ChatBot with SQLite + FastAPI
+## 💬 Project: ChatBot with SQLite + FastAPI
 
 A production-style chatbot built with:
 
-| Component | Technology | Icon |
-|-----------|------------|------|
-| Framework | LangGraph | <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg> |
-| Database | SQLite | <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg> |
-| LLM | Ollama (llama3.2:1b) | <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg> |
-| API | FastAPI | <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg> |
-| UI | Streamlit | <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg> |
+| Component | Technology |
+|-----------|------------|
+| 🔗 Framework | LangGraph |
+| 🗄️ Database | SQLite |
+| 🦙 LLM | Ollama (llama3.2:1b) |
+| ⚡ API | FastAPI |
+| 🖥️ UI | Streamlit |
 
 ### Architecture
 
@@ -121,7 +118,7 @@ A production-style chatbot built with:
 
 ---
 
-## <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Prerequisites
+## ⏳ Prerequisites
 
 - Python 3.10+
 - pip or conda
@@ -129,7 +126,7 @@ A production-style chatbot built with:
 
 ---
 
-## <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 17l6-6-6-6"/><line x1="12" y1="19" x2="20" y2="19"/></svg> Installation
+## 🚀 Installation
 
 ```bash
 # Clone the repository
@@ -143,7 +140,7 @@ pip install fastapi uvicorn streamlit
 
 ---
 
-## <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg> Running the Project
+## ▶️ Running the Project
 
 ```bash
 # Start the chatbot
@@ -156,27 +153,24 @@ jupyter notebook 01-Intro_LangGraph/What_is_LangGraph.ipynb
 
 ---
 
-## <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg> Tech Stack
+## 🛠️ Tech Stack
 
 | Component | Technology |
 |-----------|------------|
-| Framework | LangGraph |
-| LLM | Ollama (llama3.2:1b) |
-| Persistence | SQLite, Redis, PostgreSQL |
-| API | FastAPI |
-| UI | Streamlit |
-| Language | Python |
-
+| 🔗 Framework | LangGraph |
+| 🦙 LLM | Ollama (llama3.2:1b) |
+| 🗄️ Persistence | SQLite, Redis, PostgreSQL |
+| ⚡ API | FastAPI |
+| 🖥️ UI | Streamlit |
+| 🐍 Language | Python |
 
 
 ---
 
 <p align="center">
-  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-  <br/>
-  <strong>Built as a learning path from LangGraph basics to building production-ready agentic AI systems.</strong>
+  ✅ <strong>Built as a learning path from LangGraph basics to building production-ready agentic AI systems.</strong>
 </p>
 
 <p align="center">
-  <sub>Made with <svg width="14" height="14" viewBox="0 0 24 24" fill="#ef4444" stroke="#ef4444" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg> for the AI community</sub>
+  Made with ❤️ for the AI community
 </p>
